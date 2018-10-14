@@ -4,16 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev"
   },
   "author": "yyokii",
   "license": "ISC",
   "dependencies": {
-    "next": "^6.1.1",
+    "next": "^7.0.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "solc": "^0.4.24",
     "truffle-hdwallet-provider": "0.0.5",
     "web3": "^1.0.0-beta.34"
-  }
+  },
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js",
+    "json"
+  ]
 }
